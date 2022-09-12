@@ -1,0 +1,58 @@
+/*@charset "UTF-8";*/
+html, body {
+  margin: 0;/*"ISO-8859-14";*/
+  padding: 0;
+  background-color: black;
+}
+canvas {
+  display: inline;
+  vertical-align: center;
+}
+#canvasContainer {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testoBox {
+
+}
+.textoBox2 {
+  overflow: scroll;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 400px;
+  transform: translate(-50%, -50%);
+}
+#texto{
+  /*left: 55%;
+  right: 5%;
+  top: 10%;
+  /*width: 320px;*/
+  /*height: 80%;
+  padding: 10px;
+  border: 0px;/*px solid gray;*/
+  /*margin: 0; */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  width: 600px;
+  height: 400px;
+  transform: translate(0%, -50%);
+  overflow: scroll;
+}
+#i5{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.pls.myMap-logo{
+    display: none !important;
+}
